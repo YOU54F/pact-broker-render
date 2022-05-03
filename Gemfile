@@ -5,4 +5,4 @@ gem "pact_broker"
 gem "pg" 
 gem 'passenger', '>= 6.0.2'
 
-ruby '2.5.1'
+ruby '2.7.6'
