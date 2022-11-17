@@ -1,25 +1,22 @@
-# pact-broker-heroku
+# pact-broker-render
 
-# Example of Pact Broker configuration on heroku with basic authentication
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/YOU54F/pact-broker-heroku)
 
-## Create your Pact Broker project
+# Example of Pact Broker configuration on Render with basic authentication
 
-Install
+Pre Requisities
 
-```
-$ bundle
-$ git add .
-$ git commit -m "Initial commit"
-```
+- Render account https://render.com/
 
-Install Heroku CLI tools and login
+## Setup with Render
 
-It's now time to deploy to heroku! Assuming you already have an account, you need to create a new application with a postgres add-on:
-```
-$ heroku create
-$ heroku addons:add heroku-postgresql
-$ heroku config:set PACT_BROKER_USERNAME=admin
-$ heroku config:set PACT_BROKER_PASSWORD=changeme
-$ git push heroku master
-```
+1. Click the deploy to render button
+2. Set up postgres database https://render.com/docs/databases#creating-a-database
+3. Grab the connection string https://render.com/docs/databases#connecting-from-outside-render
+4. Configure environment variables https://render.com/docs/configure-environment-variables
+  1. DATABASE_URL
+  2. PACT_BROKER_USERNAME
+  3. PACT_BROKER_PASSWORD
+5. Select `Manual Deploy` in Render, and then select 'Clear build cache and deploy`
+
 Your Pact Broker instance is now available!
