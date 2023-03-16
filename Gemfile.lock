@@ -96,7 +96,7 @@ GEM
     passenger (6.0.2)
       rack
       rake (>= 0.8.1)
-    pg (1.1.4)
+    pg (1.4.6)
     rack (2.2.3)
     rack-protection (2.0.5)
       rack
@@ -156,6 +156,9 @@ DEPENDENCIES
   pact_broker
   passenger (>= 6.0.2)
   pg
+
+RUBY VERSION
+   ruby 2.7.6p219
 
 BUNDLED WITH
    2.0.1
