@@ -93,14 +93,14 @@ GEM
       sinatra (>= 2.0.0)
       thor (~> 0.18)
     padrino-support (0.14.4)
-    passenger (6.0.2)
+    passenger (6.0.17)
       rack
       rake (>= 0.8.1)
     pg (1.1.4)
-    rack (2.2.3)
+    rack (2.2.6.4)
     rack-protection (2.0.5)
       rack
-    rake (13.0.1)
+    rake (13.0.6)
     randexp (0.1.7)
     redcarpet (3.5.1)
     reform (2.2.4)
@@ -156,6 +156,9 @@ DEPENDENCIES
   pact_broker
   passenger (>= 6.0.2)
   pg
+
+RUBY VERSION
+   ruby 2.7.6p219
 
 BUNDLED WITH
    2.0.1
