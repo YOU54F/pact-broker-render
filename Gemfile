@@ -10,3 +10,5 @@ gem 'rackup'
 gem 'pact-support'
 gem "padrino-core", ">= 0.16.0.pre3"
 gem "sinatra", "~> 4.0"
+gem 'mutex_m'
+gem 'csv'
